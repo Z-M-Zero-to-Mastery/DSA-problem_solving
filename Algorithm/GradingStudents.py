@@ -62,7 +62,7 @@ def gradingStudents(grades):
     g = []
 
     for i in grades:
-        num = Math.ceil(i / 5)
+        # num = Math.ceil(i / 5)
         num = num * 5
 
         val = num - i
